@@ -1,4 +1,22 @@
 package com.example.jpaentitytest.common;
 
-public class BoardImageEntity {
+import jakarta.persistence.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+import lombok.experimental.SuperBuilder;
+
+@Entity
+@Table(name = "board_image")
+@Data
+@NoArgsConstructor
+@EqualsAndHashCode(callSuper = true)
+@ToString(callSuper = true)
+@SuperBuilder
+public class BoardImageEntity extends BaseEntity{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(updatable = false, nullable = false, columnDefinition = "BIGINT UNSIGNED", length = 15)
+    private Long iboardPic;
 }
