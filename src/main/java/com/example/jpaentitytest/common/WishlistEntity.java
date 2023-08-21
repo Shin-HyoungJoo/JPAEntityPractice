@@ -1,2 +1,4 @@
-package com.example.jpaentitytest.common;public class WishlistEntity {
+package com.example.jpaentitytest.common;
+
+public class WishlistEntity {
 }

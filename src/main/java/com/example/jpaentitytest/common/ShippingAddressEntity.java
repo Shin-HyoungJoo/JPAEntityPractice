@@ -1,2 +1,4 @@
-package com.example.jpaentitytest.common;public class ShippingAddressEntity {
+package com.example.jpaentitytest.common;
+
+public class ShippingAddressEntity {
 }

@@ -1,2 +1,4 @@
-package com.example.jpaentitytest.common;public class BoardImageEntity {
+package com.example.jpaentitytest.common;
+
+public class BoardImageEntity {
 }

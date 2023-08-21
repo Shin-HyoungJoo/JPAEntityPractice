@@ -1,2 +1,4 @@
-package com.example.jpaentitytest.common;public class Order {
+package com.example.jpaentitytest.common;
+
+public class OrderEntity {
 }
