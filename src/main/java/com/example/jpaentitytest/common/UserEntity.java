@@ -58,7 +58,6 @@ public class UserEntity extends BaseEntity {
     private String role;
 
     @Column(length = 100)
-    @ColumnDefault("0")
     private String pic;
 
     @Column(length = 1, columnDefinition = "TINYINT")
